@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+}
+
+h1 {
+    color: #66BFBF;
+    margin-top: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    /* font-size: 2.5rem; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #11999E;
+}
+
+.top-container {
+    padding: 100px;
+    position: relative;
+    background-color: #d0f3ff;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.skill-row{
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+.profile {
+    margin: auto;
+    width: 30%;
+}
+.profilepic{
+    width: 50%; 
+}
+.skill-row p {
+    line-height: 2;
+    /* clear: left;  clear all float of the same side*/
+}
+.middle-container{
+    padding: 100px;
+}
+
+.computer-image {
+    width: 25%;
+    float: left;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.chillies-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-container{
+    /* padding: 25px; */
+    background-color: #66BFBF;
+}
+.footer-link{
+    text-decoration: none;
+    padding-top: 10px;
+    color: #11999E;
+    margin: 50px;
+}
+.bottom-container p{
+    font-size: 12px;
+    margin: 0%;
+    padding: 30px 0;
+    color: #EAF6F6;
+}
+hr{
+    margin: 100px auto;
+    border-style: dotted none none;
+    border-color: grey;
+    width: 5%;
+    border-width: 5px;
+}
+
+.footer-link:hover{
+    color:#30e3cb;
+}
+
+.btn{
+    border: transparent;
+    background-color: #11999E;
+    border-radius: 8px;
+    color: #d0f3ff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: 200px;
+}
+.contact-me p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
